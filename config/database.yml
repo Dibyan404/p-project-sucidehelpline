@@ -8,12 +8,12 @@ default: &default
 
 development:
   <<: *default
-  database: ideator_development
+  database: p-project-sucide-helpline_development
 
 test:
   <<: *default
-  database: ideator_test
+  database: p-project-sucide-helpline_test
 
 production:
   <<: *default
-  database: ideator_production
+  database: p-project-sucide-helpline_production
