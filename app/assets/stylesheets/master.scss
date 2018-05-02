@@ -1,0 +1,136 @@
+$primary-font: 'Roboto Condensed', sans-serif;  
+$secondary-font: 'Open Sans', sans-serif;  
+
+html,body{
+    overflow-x:hidden;
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+     //background: url("https://i.imgur.com/1wr7PCP.jpg");
+    // background-size: cover;
+    //background-color: #00B7FF;
+}
+body{
+    //background-color: #f1f1f1;
+    color: #787878;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: $primary-font;
+}
+p{
+    font-family: $secondary-font;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url(https://i.imgur.com/pDmSFjy.jpg);
+    
+    /* Set a specific height */
+    min-height: 200px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    min-height: 620px;
+    /*overflow: hidden;*/
+    //max-width: 1327px;
+   
+    background: url(https://i.imgur.com/1wr7PCP.jpg) no-repeat;
+    background-size: cover;
+}
+.top-content{
+    
+    
+    //opacity: 0.1;
+    /*background: url(https://i.imgur.com/1wr7PCP.jpg) no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;*/
+    .img-content{
+        //position: absolute;
+        //top: -150px;
+        #image-street{
+            
+            
+        }
+    }
+    .text-content{
+             //position: relative; 
+            
+             color: #fff;;
+             padding-top: 40px;
+             padding-left: 120px;
+             .hope-p{
+                 padding-top:30px;
+             }
+            
+    }
+}
+
+.signup{
+    //position: absolute;
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-right: 70px;
+    .heading-big{
+        font-size: 72px;
+        color: #f1f1f1;
+        
+    }
+    .button-big{
+        width: 150px;
+        height: 70px;
+        background-color:#3498db;
+        color: white;
+        cursor: cursor;
+        padding: 7px;
+        margin-top: 30px;
+        font-size: 36px;
+        
+    }
+}
+
+
+/* Styles go here */
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+.help_rtext{
+    /*background:url('https://imgur.com/ZZXrUs2.jpg') no-repeat;
+     background-size: cover;
+     color: #575757;*/
+
+  background-color: #f1f1f1; 
+  padding-top: 50px;
+  padding-right: 120px;
+  padding-left: 120px;
+  padding-bottom: 50px;
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -45px;
+  /* Pad bottom by footer height */
+  padding: 0 0 45px;
+}
+
+/* Set the fixed height of the footer here */
+.footer {
+  height: 70px;
+}
